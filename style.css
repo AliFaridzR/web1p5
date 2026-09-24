@@ -1,0 +1,157 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f1e8;
+    color: #333;
+}
+
+nav {
+    background-color: #8b2e1e;
+    padding: 18px;
+    text-align: center;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #ffd166;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 35px auto;
+    padding: 0 20px;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 35px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.hero {
+    text-align: center;
+    padding: 15px 0 30px;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 8px;
+    color: #8b2e1e;
+}
+
+.hero p {
+    color: #777;
+}
+
+.video {
+    display: block;
+    width: 550px;
+    max-width: 100%;
+    margin: 25px auto;
+    border-radius: 12px;
+}
+
+.daftar-menu {
+    display: flex;
+    gap: 35px;
+}
+
+.kategori {
+    flex: 1;
+}
+
+h2 {
+    color: #8b2e1e;
+    text-align: center;
+    border-bottom: 2px solid #8b2e1e;
+    padding-bottom: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 16px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.nama {
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.deskripsi {
+    color: #777;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.harga {
+    text-align: right;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.judul-halaman {
+    text-align: center;
+    color: #8b2e1e;
+    margin-bottom: 25px;
+}
+
+.isi {
+    line-height: 1.8;
+    text-align: center;
+}
+
+.gallery {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    width: 280px;
+    height: 190px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.contact {
+    text-align: center;
+    line-height: 2;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px;
+    color: #777;
+    font-size: 13px;
+}
+
+@media (max-width: 700px) {
+    nav a {
+        margin: 0 7px;
+        font-size: 14px;
+    }
+
+    .daftar-menu {
+        flex-direction: column;
+    }
+
+    .hero h1 {
+        font-size: 30px;
+    }
+}
