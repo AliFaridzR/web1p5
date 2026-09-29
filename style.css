@@ -155,3 +155,26 @@ h2 {
         font-size: 30px;
     }
 }
+
+.tabel-menu {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.tabel-menu th,
+.tabel-menu td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+
+.tabel-menu th {
+    background-color: #8b2e1e;
+    color: white;
+}
+
+.tabel-menu td {
+    background-color: white;
+    font-weight: normal;
+}
